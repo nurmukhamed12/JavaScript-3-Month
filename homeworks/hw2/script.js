@@ -3,6 +3,7 @@ const input = document.getElementById("input");
 const button = document.getElementById("button");
 const userData = document.getElementById("userData");
 
+
 button.addEventListener("click", fetchData);
 
 function fetchData() {
