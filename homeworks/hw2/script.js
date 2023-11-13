@@ -9,10 +9,10 @@ button.addEventListener("click", fetchData);
 function fetchData() {
     const userID = input.value;
     if (userID <= 10) {
-        fetch("https://jsonplaceholder.typicode.com/users/$%7Bid%7D")
+        fetch("https://jsonplaceholder.typicode.com/users")
             .then((response) => {
                 return response.json()
-            }).then(data => {
+            }).then(data => {                                                                                           н
                 const name = data;
                 const username = data;
                 const phone = data;
